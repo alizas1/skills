@@ -49,7 +49,7 @@ It is relatively strong on **contradictions**:
 - Places where a first-time integrator has to guess the happy path
 - Obvious gaps
 
-It is weak on **absences**: undocumented semantics, missing read-back paths, error behavior that is never specified, cross-surface gaps. It is also weak on finding the most important jobs to check. Those usually need a human review that traces the job across multiple surfaces.
+It is weaker on **absences**: undocumented steps or semantics, error behavior that is never specified, cross-surface gaps. It is also weak on finding the most important jobs to check. Those usually need a human review that traces the job across multiple surfaces.
 
 If you want the fuller picture of how I evaluate APIs, see [dx-evaluation-framework](https://github.com/alizas1/dx-evaluation-framework) (essays + methodology).
 
