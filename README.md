@@ -50,14 +50,10 @@ Or clone this repo and symlink the folder into your skills path.
 
 This is a **free, lightweight review**.
 
-It is relatively strong on **contradictions**. It is weak on **absences**: undocumented semantics, missing read-back paths, error behavior that is never specified, async write semantics, cross-surface gaps. Those usually need a human review that traces the job across surfaces, or a paid review.
+It is relatively strong on **contradictions**. It is weak on **absences**: undocumented semantics, missing read-back paths, error behavior that is never specified, async write semantics, cross-surface gaps. Those usually need a human review that traces the job across surfaces.
 
 If you want the fuller picture of how I evaluate APIs, see [dx-evaluation-framework](https://github.com/alizas1/dx-evaluation-framework) (essays + methodology).
 
 ## Attribution
 
 Free to use and adapt. If you share or fork, keep attribution and link back to this repo.
-
-## Topics
-
-`claude-skill` · `agent-skills` · `cursor` · `api` ·  `api-documentation` · `devrel` · `developer-experience`
