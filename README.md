@@ -42,15 +42,14 @@ Or clone this repo and symlink the folder into your skills path.
 
 ## What `api-friction-pass` is good for
 
-- Contradictions between published artifacts (prose vs spec, sample vs schema, deprecated paths still documented)
-- Places where a first-time integrator has to guess on the happy path
-- Obvious gaps when you cannot finish “This API lets a developer ___” from the in-scope surface alone
-
-## What it does not cover
-
 This is a **free, lightweight review**.
 
-It is relatively strong on **contradictions**. It is weak on **absences**: undocumented semantics, missing read-back paths, error behavior that is never specified, async write semantics, cross-surface gaps. Those usually need a human review that traces the job across surfaces.
+It is relatively strong on **contradictions**:
+- Contradictions between published artifacts (prose vs spec, sample vs schema, deprecated paths still documented)
+- Places where a first-time integrator has to guess the happy path
+- Obvious gaps
+
+It is weak on **absences**: undocumented semantics, missing read-back paths, error behavior that is never specified, cross-surface gaps. It is also weak on finding the most important jobs to check. Those usually need a human review that traces the job across multiple surfaces.
 
 If you want the fuller picture of how I evaluate APIs, see [dx-evaluation-framework](https://github.com/alizas1/dx-evaluation-framework) (essays + methodology).
 
