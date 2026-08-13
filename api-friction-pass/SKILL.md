@@ -1,18 +1,18 @@
 ---
-name: api-friction-pass
+name: api-friction-walkthrough
 description: >-
   Walk an API's integrator-facing docs and spec like a first-time integrator.
   Surface where someone would get confused or fail to finish a real use case. Use
   when checking public docs or draft docs before publishing.
 ---
 
-# API friction pass
+# API friction walkthrough
 
 Read **only the integrator-facing surface in scope** that the user defines. No internal knowledge, repo, or team chat unless it is inside the user-defined surface. Find where a first-time integrator would get confused, guess wrong, or fail to finish a real use case, and list them.
 
 ## How to use this skill
 
-Ask for an API friction pass and provide the published docs URL, files, or spec you want reviewed.
+Ask for an API friction walkthrough and provide the published docs URL, files, or spec you want reviewed.
 This workflow will check the API's purpose, define use cases, check the docs against these use cases, and provide a list of places where an integrator is likely to get stuck.
 
 ## Workflow
@@ -20,7 +20,7 @@ This workflow will check the API's purpose, define use cases, check the docs aga
 ### 1. Lock scope
 Ask only if missing: which docs URL, files, or spec are in scope?
 Do not invent that surface. 
-Note whether the surface looks published or draft when that's obvious from what you can open. If you can't tell and it would change the pass, ask.
+Note whether the surface looks published or draft when that's obvious from what you can open. If you can't tell and it would change the walkthrough, ask.
 If the in-scope surface is still unclear, ask before reading deeply.
 
 ### 2. API purpose 
@@ -31,7 +31,7 @@ If you cannot finish that sentence confidently from the in-scope surface alone, 
 ### 3. Pick 1–2 real use cases
 Write 1–2 concrete scenarios a real integrator would attempt (not "use the API") and print them in the chat.
 Example shape: "Create X, then update Y, then confirm Z from the response."
-These use cases anchor the rest of the pass. When unsure whether something matters, ask: *would someone pursuing one of these use cases actually hit this?*
+These use cases anchor the rest of the walkthrough. When unsure whether something matters, ask: *would someone pursuing one of these use cases actually hit this?*
 
 ### 4. Follow the path like an integrator
 Using only the in-scope surface, follow the path for those use cases. Prefer noticing anomalies ("that doesn't fit").
