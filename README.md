@@ -51,7 +51,7 @@ It is relatively strong on **contradictions**:
 
 It is weaker on **absences**: undocumented steps or semantics, error behavior that is never specified, cross-surface gaps. It is also weak on finding the most important jobs to check. Those usually need a human review that traces the job across multiple surfaces.
 
-This is not a deterministic OpenAPI check against a fixed signal set, or an AI-readiness assessment of the contract.
+This is not a deterministic OpenAPI check against a fixed signal set, or an AI-readiness assessment of the contract. It intentionally focuses on one specific facet of developer experience: the walkthrough.
 
 If you want the fuller picture of how I evaluate APIs, see [dx-evaluation-framework](https://github.com/alizas1/dx-evaluation-framework) (essays + methodology).
 
