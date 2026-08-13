@@ -2,7 +2,7 @@
 
 Public [Cursor](https://cursor.com) and [Claude Code](https://docs.anthropic.com/en/docs/claude-code) skills for API developer experience work.
 
-By [Aliza Solomon](https://www.linkedin.com/in/alizas/).
+By [Aliza Solomon](https://www.linkedin.com/in/alizas/), alizasolomondx@gmail.com.
 
 ## Skills
 
@@ -42,7 +42,7 @@ Or clone this repo and symlink the folder into your skills path.
 
 ## What `api-friction-pass` is good for
 
-This is a **free, lightweight review**.
+This is a free, lightweight review of up to 2 use cases as chosen by the agent (unless you provide your own). Different passes can surface different findings if the use cases or scope change.
 
 It is relatively strong on **contradictions**:
 - Contradictions between published artifacts (prose vs spec, sample vs schema, deprecated paths still documented)
@@ -50,6 +50,8 @@ It is relatively strong on **contradictions**:
 - Obvious gaps
 
 It is weaker on **absences**: undocumented steps or semantics, error behavior that is never specified, cross-surface gaps. It is also weak on finding the most important jobs to check. Those usually need a human review that traces the job across multiple surfaces.
+
+This is not a deterministic OpenAPI check against a fixed signal set, or an AI-readiness assessment of the contract.
 
 If you want the fuller picture of how I evaluate APIs, see [dx-evaluation-framework](https://github.com/alizas1/dx-evaluation-framework) (essays + methodology).
 
