@@ -47,6 +47,8 @@ When the test runs, it produces:
 | **User agent** | A separate agent that plays one user |
 | **Session** | One user's go at the subject, from the first look to what they do with the result |
 | **Case** | What a user is given to try in a session: an input, a scenario, an environment or some content |
+| **Step log** | Every step of one session, in order: what the user did, what came back, and every error, confusion point and wrong turn |
+| **Chain log** | When a user passes a result on: what each person who gets it reads, in order, where they get confused or stop, and what they do next, with who passed it to whom |
 
 ## How to use this skill
 
