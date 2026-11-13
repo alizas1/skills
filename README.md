@@ -9,6 +9,7 @@ By [Aliza Solomon](https://www.linkedin.com/in/alizas/), alizasolomondx@gmail.co
 | Skill | What it does |
 |-------|----------------|
 | [`api-friction-walkthrough`](api-friction-walkthrough/SKILL.md) | Reads integrator-facing docs/spec, picks 1–2 real use cases, checks the docs/spec against the use cases, and lists where someone would get stuck finishing them |
+| [`user-test-plan`](user-test-plan/SKILL.md) | Writes a plan for testing anything with its real users: chooses the users and how each one behaves, writes down what should happen before anything runs, keeps the likely off-path moves from the agents playing the users, and records every step, confusion and wrong turn |
 
 More skills may land here over time. Each skill lives in its own folder with a `SKILL.md`.
 
